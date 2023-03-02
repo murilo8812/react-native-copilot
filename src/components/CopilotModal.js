@@ -48,7 +48,9 @@ class CopilotModal extends Component<Props, State> {
     easing: Easing.elastic(0.7),
     animationDuration: 400,
     tooltipComponent: Tooltip,
-    tooltipStyle: {},
+    tooltipStyle: {
+      backgroundColor: '#424242',
+    },
     stepNumberComponent: StepNumber,
     // If react-native-svg native module was avaialble, use svg as the default overlay component
     overlay: typeof NativeModules.RNSVGSvgViewManager !== 'undefined' ? 'svg' : 'view',
@@ -58,7 +60,7 @@ class CopilotModal extends Component<Props, State> {
     backdropColor: 'rgba(0, 0, 0, 0.4)',
     labels: {},
     stopOnOutsideClick: false,
-    arrowColor: '#fff',
+    arrowColor: '#424242',
   };
 
   state = {
