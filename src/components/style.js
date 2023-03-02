@@ -7,7 +7,7 @@ export const MARGIN: number = 13;
 export const OFFSET_WIDTH: number = 4;
 export const ARROW_SIZE: number = 6;
 
-export const styles = StyleSheet.create({
+export default StyleSheet.create({
   container: {
     position: 'absolute',
     left: 0,
