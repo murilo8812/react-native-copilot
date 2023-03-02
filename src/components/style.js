@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export const STEP_NUMBER_RADIUS: number = 13;
+export const STEP_NUMBER_RADIUS: number = 14;
 export const STEP_NUMBER_DIAMETER: number = STEP_NUMBER_RADIUS * 2;
 export const ZINDEX: number = 100;
 export const MARGIN: number = 13;
@@ -23,10 +23,10 @@ export default StyleSheet.create({
   },
   tooltip: {
     position: 'absolute',
-    paddingTop: 5,
+    paddingTop: 15,
     paddingHorizontal: 15,
-    backgroundColor: '#424242',
-    borderRadius: 10,
+    backgroundColor: '#fff',
+    borderRadius: 3,
     overflow: 'hidden',
   },
   tooltipText: {
@@ -38,7 +38,7 @@ export default StyleSheet.create({
   },
   stepNumberContainer: {
     position: 'relative',
-    marginTop: 200,
+    marginTop: 10,
     width: STEP_NUMBER_DIAMETER,
     height: STEP_NUMBER_DIAMETER,
     overflow: 'hidden',
@@ -50,12 +50,11 @@ export default StyleSheet.create({
     justifyContent: 'center',
     borderWidth: 2,
     borderRadius: STEP_NUMBER_RADIUS,
-    borderColor: '#FFFFFF',
-    backgroundColor: 'yellow',
-    
+    borderColor: '#424242',
+    backgroundColor: '#81F7D8',
   },
   stepNumberText: {
-    fontSize: 10,
+    fontSize: 12,
     backgroundColor: 'transparent',
     color: '#000',
   },
@@ -63,9 +62,9 @@ export default StyleSheet.create({
     padding: 10,
   },
   buttonText: {
-    color: '#FFF',
-    fontWeight: 'bold',
+    color: '#81F7D8',
     fontSize: 18,
+    fontWeight: 'bold'
   },
   bottomBar: {
     marginTop: 10,

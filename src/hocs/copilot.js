@@ -41,7 +41,7 @@ const copilot = ({
   backdropColor,
   stopOnOutsideClick = false,
   svgMaskPath,
-  verticalOffset = 0,
+  verticalOffset = 30,
   wrapperStyle,
   arrowColor,
 } = {}) =>
