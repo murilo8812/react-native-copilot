@@ -5,10 +5,10 @@
     <a href="https://travis-ci.org/mohebifar/react-native-copilot">
       <img src="https://img.shields.io/travis/mohebifar/react-native-copilot.svg" alt="Travis (.org)">
     </a>
-    <a href="https://www.npmjs.com/package/react-native-copilot">
+    <a href="https://www.npmjs.com/package/@murilo8812/react-native-copilot">
       <img src="https://img.shields.io/npm/v/react-native-copilot.svg" alt="NPM Version" />
     </a>
-    <a href="https://www.npmjs.com/package/react-native-copilot">
+    <a href="https://www.npmjs.com/package/@murilo8812/react-native-copilot">
       <img src="https://img.shields.io/npm/dm/react-native-copilot.svg" alt="NPM Downloads" />
     </a>
   </p>
