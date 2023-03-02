@@ -1,4 +1,4 @@
-declare module 'react-native-copilot' {
+declare module '@murilo8812/react-native-copilot' {
   import { Component, ComponentProps, ComponentType, ReactElement, ReactNode } from 'react';
 
   export type Step = {
