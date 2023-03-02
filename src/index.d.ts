@@ -71,6 +71,7 @@ declare module 'react-native-copilot' {
     order: number; // A positive number indicating the order of the step in the entire walkthrough
     text: string; // The text shown as the description for the step
     active?: boolean; // If set to false the step is ignored
+    children?: any; //This props is missing
   };
 
   /**
